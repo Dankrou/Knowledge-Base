@@ -140,18 +140,59 @@ function fancyAlert(arg) {
 - [ ] this is an incomplete item
 
 # Tables
+### Table 1
 ```
 First Header | Second Header
 ------------ | -------------
 Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
 ```
+### Table 2
+~~~
+| Command | Description |
+| --- | --- |
+| `git status` | List all *new or modified* files |
+| `git diff` | Show file differences that **haven't been** staged |
+~~~
+### Table 3
+~~~
+| Left-aligned | Center-aligned | Right-aligned |
+| :---         |     :---:      |          ---: |
+| git status   | git status     | git status    |
+| git diff     | git diff       | git diff      |
+~~~
+### Table 4
+~~~
+| Name     | Character |
+| ---      | ---       |
+| Backtick | `         |
+| Pipe     | \|        |
+~~~
 
 ## Result
+### Table 1
 First Header | Second Header
 ------------ | -------------
 Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
+### Table 2
+You can use formatting such as links, inline code blocks, and text styling within your table:
+| Command | Description |
+| --- | --- |
+| `git status` | List all *new or modified* files |
+| `git diff` | Show file differences that **haven't been** staged |
+### Table 3
+You can align text to the left, right, or center of a column by including colons : to the left, right, or on both sides of the hyphens within the header row.
+| Left-aligned | Center-aligned | Right-aligned |
+| :---         |     :---:      |          ---: |
+| git status   | git status     | git status    |
+| git diff     | git diff       | git diff      |
+### Table 4
+To include a pipe | as content within your cell, use a \ before the pipe:
+| Name     | Character |
+| ---      | ---       |
+| Backtick | `         |
+| Pipe     | \|        |
 
 # SHA references
 ```
